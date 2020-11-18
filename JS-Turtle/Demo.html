@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+</head>
+<body>
+  <canvas id="mycanvas" height ="800" width = "1200">
+</body>
+<script src="turtle.js"></script>
+<script src="hsv.js"></script>
+<script>{document.body.style.backgroundImage = "url('1.jpg')";
+}</script>
+<script>
+  var p = new Turtle(document.getElementById("mycanvas"));
+  p.moveto(300, 650);
+  p.penDown = true;
+
+function Square(size){
+  for(var i = 0; i < 4; i++){
+    p.forward(size);
+    p.right(90);
+  }
+}
+
+p.right(180);
+p.forward(300);
+p.right(90);
+p.forward(25);
+p.right(90);
+p.forward(25);
+p.right(90);
+p.forward(25);
+p.right(180);
+p.forward(25);
+p.right(90);
+p.forward(275);
+p.right(20);
+p.forward(50);
+p.right(150);
+p.forward(50);
+p.right(100);
+p.forward(25);
+</script>
+</html>
