@@ -12,7 +12,8 @@
 
 In het het bestand  [index.html](index.html) houd je een overzicht bij van wat je hebt gedaan met linkjes naar de opdrachten.
 **Dit overzicht zet je op je eigen Ma Cloud website en houd je up-to-date!**
+[JS-TURTKE](https://github.com/KaanSecen/Javascript-Achievements/tree/main/JS-Turtle)
 
 Plaats in deze readme een link naar het index bestand op je ma-cloud site.  
-[Link naar index](http://24114.hosts1.ma-cloud.nl/Javascript/index.html)
+[Link naar index](http://24114.hosts1.ma-cloud.nl/Javascript-Achievements/index.html)
 
