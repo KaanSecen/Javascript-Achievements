@@ -1,87 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Javascript Achievements</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
-    <style type="text/css">
-        body {
-            font-family: "Roboto", sans-serif;
-        }
-
-        .container {
-            padding: 20px 40px;
-        }
-
-        .big-link {
-            font-size: 1.5em;
-        }
-    </style>
+    <link rel="stylesheet" href="menu.css">
+    <link rel="stylesheet" href="MenuTop.css">
+    <link rel="stylesheet" href="table.css">
+    <script src="opdrachten.js"></script> 
 </head>
-
 <body>
-    <div class="container">
-        <img src="js.png" />
-
-        <h1>Javascript Achievements: Kaan Secen</h1>
-
-        <a href="https://trello.com/b/xo5TJzFr/javascript-achievements" target="_blank" class="big-link">Overzicht alle beschikbare
-            opdrachten</a>
-
-        <p>
-            Op deze pagina zet je je naam en je maakt hieronder een overzicht met linkjes naar alle Javascript achievements die je
-            hebt gemaakt.<br />
-            Voor elke achievement maak je een map (zoals de voorbeeld achievement). Ook zet je hieronder in het overzicht een link naar elke achievement map.
-        </p>
-
-        <hr>
-
-        <h2>Les 1: FTP / Filezilla / Ma Cloud hosting</h2>
-        <ul>
-            <li><a href="JS-Turtle/Demo.html">Javascript Turtle (html)</a></li>
-            <li><a href="https://github.com/KaanSecen/Javascript-Achievements/blob/main/JS-Turtle/Demo.html">Javascript Turtle (Github)</a></li>
-            <li><a href="http://24114.hosts1.ma-cloud.nl/JavaExtra/Datumknop.html">DemoKnop  (html)</a></li>
-            <li><a href="https://github.com/KaanSecen/JS-Extra/blob/master/Datumknop.html">DemoKnop  (Github)</a></li>
-        </ul>
-        <hr>
-        <h2>Les 2: HTML5</h2>
-        <ul>
-            <li><a href="http://24114.hosts1.ma-cloud.nl/Javascript-Achievements/JS_B2_L2_Checkerboard/index.html">Checkerboard (html)</a></li>
-            <li><a href="https://github.com/KaanSecen/Javascript-Achievements/blob/main/JS_B2_L2_Checkerboard/index.html">Checkerboard (Github)</a></li>
-            <li><a href="http://24114.hosts1.ma-cloud.nl/Javascript-Achievements/JS_B2_L2_BOXBLOCKS/index.html">Box Blocks (html)</a></li>
-            <li><a href="https://github.com/KaanSecen/Javascript-Achievements/blob/main/JS_B2_L2_BOXBLOCKS/index.html">Box Blocks (Github)</a></li>
-        </ul>
-        <hr>
-        <h2>Les 3: Les 3 JS Date</h2>
-        <ul>
-            <li>Javascript Achievement</li>
-            <li>Javascript Achievement</li>
-            <li>...</li>
-        </ul>
-        <hr>
-        <h2>Les 4: Document Object Model (DOM)</h2>
-        <ul>
-            <li>Javascript Achievement</li>
-            <li>Javascript Achievement</li>
-            <li>...</li>
-        </ul>
-        <hr>
-        <h2>Les 5: Functions / Events</h2>
-        <ul>
-            <li>Javascript Achievement</li>
-            <li>Javascript Achievement</li>
-            <li>...</li>
-        </ul>
-        <hr>
-        <h2>Les 6: Modulo</h2>
-        <ul>
-            <li>Javascript Achievement</li>
-            <li>Javascript Achievement</li>
-            <li>...</li>
-        </ul>
+    <div class="left">
+        <p class="Version">v 1.0.1</p>
+        <img src="https://avatars1.githubusercontent.com/u/70695866?s=400&u=f74570ab16520ae532e4a9398c4291b1e84a9cd1&v=4" alt="KaanLogo" class="Logo">
+        <div class="Naam">
+            <p>Kaan Secen</p> 
+        </div>
+        <div class="KnopB">
+            <button class="KnopS">
+                Stats
+            </button>
+        </div>
+        <div class="KnopB">
+            <button class="KnopS">
+                Info
+            </button>
+        </div>
+        <div class="KnopB">
+            <button class="KnopS">
+                Github
+            </button>
+        </div>
+        <div class="KnopB">
+            <button class="KnopS">
+                Home
+            </button>
+        </div>
+        <div class="KnopB">
+            <button class="KnopS">
+                Sleep
+            </button>
+        </div>
     </div>
+<header class="TopH">
+    <nav>
+        <ul class="TopM">
+            <button class="CompleteB">Complete</button>
+            <button class="WorkingB">Pending</button>
+            <button class="NotDoneB">Unfinished</button>
+        </ul>
+    </nav>
+</header>
+<h1 class="h1Op">Opdrachten</h1>
+<table id="opdrachten">
+    <tr>
+        <th>Les</th>
+        <th>Naam</th>
+        <th>Status</th>
+        <th>Website</th>
+        <th>Github</th>
+    </tr>
+    <tr class="test">
+        <td><button class="JavascriptK" onclick="linkNaarTrelloJS()">Javascript</button><button class="Les01K">01</button></td>
+        <td>Turtle</td>
+        <td><button class="CompleteK" onclick="linkNaarTrelloJSGM()">Complete</button></td>
+        <td><button class="WebsiteK" onclick="LNTurtle_L_1_WEB()">Complete</button></td>
+        <td><button class="GithubK" onclick="LNTurtle_L_1_GIT()">Complete</button></td>
+    </tr>
+    <tr class="test">
+        <td><button class="JavascriptK" onclick="linkNaarTrelloJS()">Javascript</button><button class="Les01K">01</button></td>
+        <td>DemoKnop</td>
+        <td><button class="CompleteK" onclick="linkNaarTrelloJSGM()">Complete</button></td>
+        <td><button class="WebsiteK" onclick="LNDemoKnop_L_1_WEB()">Complete</button></td>
+        <td><button class="GithubK" onclick="LNDemoKnop_L_1_GIT()">Complete</button></td>
+    </tr>
+    <tr class="test">
+        <td><button class="JavascriptK" onclick="linkNaarTrelloJS()">Javascript</button><button class="Les02K">02</button></td>
+        <td>Checkerboard</td>
+        <td><button class="CompleteK" onclick="linkNaarTrelloJSGM()">Complete</button></td>
+        <td><button class="WebsiteK" onclick="LNCheckerboard_L_2_WEB()">Complete</button></td>
+        <td><button class="GithubK" onclick="LNCheckerboard_L_2_GIT()">Complete</button></td>
+    </tr>
+    <tr class="test">
+        <td><button class="JavascriptK" onclick="linkNaarTrelloJS()">Javascript</button><button class="Les02K">02</button></td>
+        <td>Box Blocks</td>
+        <td><button class="CompleteK" onclick="linkNaarTrelloJSGM()">Complete</button></td>
+        <td><button class="WebsiteK" onclick="LNBoxBlocks_L_2_WEB()">Complete</button></td>
+        <td><button class="GithubK" onclick="LNBoxBlocks_L_2_GIT()">Complete</button></td>
+    </tr>
+</table>
 </body>
-
 </html>

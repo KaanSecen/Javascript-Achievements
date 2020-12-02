@@ -1,0 +1,49 @@
+header.TopH{
+    width: 1200px;
+    height: 70px;
+    position: absolute;
+    top: 4px;
+    right: 20px;
+}
+
+.CompleteB{
+    background-color: #b0f6e6;
+    border: none;
+    color: #65cdb5;
+    width: auto;
+    height: 30px;
+    float: right;
+    margin-top: 8px;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+
+.WorkingB{
+    background-color: #ffeab2;
+    border: none;
+    color: #e0bd59;
+    width: auto;
+    height: 30px;
+    float: right;
+    margin-top: 8px;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+
+.NotDoneB{
+    background-color: #ffd9c7;
+    border: none;
+    color: #d99e84;
+    width: auto;
+    height: 30px;
+    float: right;
+    margin-top: 8px;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+
+
+li.TopM{
+    display: inline-block;
+    padding: 15px 30px;
+}
