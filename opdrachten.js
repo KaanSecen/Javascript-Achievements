@@ -60,3 +60,13 @@ function LNFunctions_L_2_GIT(){
 function LNFunctions_L_2_WEB(){
     window.open("http://24114.hosts1.ma-cloud.nl/JavaExtra/F1M2-JS-Javascript-2/start_1.html","_self")
 }
+
+
+//Opdracht MakeAScene//
+function LNMakeAScene_L_3_GIT(){
+    window.open("https://github.com/KaanSecen/Javascript-Achievements/tree/main/JS_B2_L3_MakeAScene","_self")
+}
+
+function LNMakeAScene_L_3_WEB(){
+    window.open("http://24114.hosts1.ma-cloud.nl/Javascript-Achievements/JS_B2_L3_MakeAScene/index.html","_self")
+}
