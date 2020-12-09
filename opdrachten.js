@@ -34,11 +34,11 @@ function LNCheckerboard_L_2_WEB(){
 }
 
 //Opdracht Arrays//
-function LNArray_L_3_GIT(){
+function LNTextToSpeech_L_3_GIT(){
     window.open("https://github.com/KaanSecen/JS-Extra/tree/master/F1M2-JS-Javascript-3-Arrays-Txt2speech","_self")
 }
 
-function LNArray_L_3_WEB(){
+function LNTextToSpeech_L_3_WEB(){
     window.open("http://24114.hosts1.ma-cloud.nl/JavaExtra/F1M2-JS-Javascript-3-Arrays-Txt2speech/index.html","_self")
 }
 
