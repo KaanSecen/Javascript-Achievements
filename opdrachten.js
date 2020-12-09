@@ -70,3 +70,12 @@ function LNMakeAScene_L_3_GIT(){
 function LNMakeAScene_L_3_WEB(){
     window.open("http://24114.hosts1.ma-cloud.nl/Javascript-Achievements/JS_B2_L3_MakeAScene/index.html","_self")
 }
+
+//Opdracht HealthBar//
+function LNHealthbar_L_4_GIT(){
+    window.open("https://github.com/KaanSecen/Javascript-Achievements/blob/main/JS_B2_L4_Healthbar/index.html","_self")
+}
+
+function LNHealthbar_L_4_WEB(){
+    window.open("http://24114.hosts1.ma-cloud.nl/Javascript-Achievements/JS_B2_L4_Healthbar/index.html","_self")
+}
