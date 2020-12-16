@@ -88,3 +88,12 @@ function LNWebxrdemo_L_4_GIT(){
 function LNWebxrdemo_L_4_WEB(){
     window.open("http://24114.hosts1.ma-cloud.nl/JavaExtra/ma-webxr-master/index.html","_self")
 }
+
+//Opdracht Scroll on me//
+function LNScrollme_L_5_GIT(){
+    window.open("https://github.com/KaanSecen/Javascript-Achievements/blob/main/JS_B2_L5_Scroll_ON_ME/index.html","_self")
+}
+
+function LNScrollme_L_5_WEB(){
+    window.open("http://24114.hosts1.ma-cloud.nl/Javascript-Achievements/JS_B2_L5_Scroll_ON_ME/index.html","_self")
+}
