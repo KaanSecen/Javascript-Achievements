@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scroll On Me</title>
+</head>
+<style>
+    div {
+        height: 100%;
+        width: 100%;
+    }
+</style>
+<body onresize="myFunctionresize()">
+    <div id="Scrolldiv">
+        <h2 id="scroll">Scroll On Me</h2>
+    </div>
+    <button id="buttonr">Reset Button</button>
+    <p id="feature"></p>
+</body>
+<script>
+    document.getElementById("Scrolldiv").addEventListener("wheel", myFunction);
+    document.getElementById("buttonr").addEventListener("click", myFunctionclick);
+    document.getElementById("feature").addEventListener("resize", myFunctionresize);
+
+        function myFunction() {
+            h1 = document.getElementById("scroll");
+            h1.addEventListener("wheel", ()=>{ h1.innerHTML += "!" });
+        }
+
+        function myFunctionclick() {
+            h1reset = document.getElementById("scroll");
+            btnr = document.getElementById("buttonr");
+            btnr.addEventListener("click", ()=>{ h1reset.innerHTML = "Scroll On Me" });
+        }
+
+        function myFunctionresize() {
+            hidetext = document.getElementById("feature");
+            hidetext.innerHTML = ("Woe kijk hidden feature slim he");
+        }
+</script>
+</html>
