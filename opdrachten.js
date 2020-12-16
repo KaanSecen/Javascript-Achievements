@@ -79,3 +79,12 @@ function LNHealthbar_L_4_GIT(){
 function LNHealthbar_L_4_WEB(){
     window.open("http://24114.hosts1.ma-cloud.nl/Javascript-Achievements/JS_B2_L4_Healthbar/index.html","_self")
 }
+
+//Opdracht WebXR Demo//
+function LNWebxrdemo_L_4_GIT(){
+    window.open("https://github.com/KaanSecen/JS-Extra/blob/master/ma-webxr-master/app.js","_self")
+}
+
+function LNWebxrdemo_L_4_WEB(){
+    window.open("http://24114.hosts1.ma-cloud.nl/JavaExtra/ma-webxr-master/index.html","_self")
+}
