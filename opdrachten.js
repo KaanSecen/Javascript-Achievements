@@ -97,3 +97,12 @@ function LNScrollme_L_5_GIT(){
 function LNScrollme_L_5_WEB(){
     window.open("http://24114.hosts1.ma-cloud.nl/Javascript-Achievements/JS_B2_L5_Scroll_ON_ME/index.html","_self")
 }
+
+//Opdracht Javascript Quiz//
+function LNQuizjs_L_5_GIT(){
+    window.open("https://github.com/KaanSecen/JS-Extra/blob/master/F1M2-JS-Quiz-Javascript-main/script.js","_self")
+}
+
+function LNQuizjs_L_5_WEB(){
+    window.open("http://24114.hosts1.ma-cloud.nl/JavaExtra/F1M2-JS-Quiz-Javascript-main/index.html","_self")
+}
