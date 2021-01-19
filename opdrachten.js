@@ -106,3 +106,12 @@ function LNQuizjs_L_5_GIT(){
 function LNQuizjs_L_5_WEB(){
     window.open("http://24114.hosts1.ma-cloud.nl/JavaExtra/F1M2-JS-Quiz-Javascript-main/index.html","_self")
 }
+
+//Opdracht Javascript Rotation//
+function LNRotat_L_5_GIT(){
+    window.open("https://github.com/KaanSecen/JS-Extra/tree/master/F1M2JS-Rotation-Sensor-main","_self")
+}
+
+function LNRotat_L_5_WEB(){
+    window.open("https://24114.hosts1.ma-cloud.nl/JavaExtra/F1M2JS-Rotation-Sensor-main/sensors.html","_self")
+}
