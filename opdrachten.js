@@ -115,3 +115,12 @@ function LNRotat_L_5_GIT(){
 function LNRotat_L_5_WEB(){
     window.open("https://24114.hosts1.ma-cloud.nl/JavaExtra/F1M2JS-Rotation-Sensor-main/sensors.html","_self")
 }
+
+//Opdracht Javascript Rotation//
+function LNTodo_L_5_GIT(){
+    window.open("https://github.com/KaanSecen/Javascript-Achievements/tree/main/JS_B2_L6_ToDoList","_self")
+}
+
+function LNTodo_L_5_WEB(){
+    window.open("http://24114.hosts1.ma-cloud.nl/Javascript-Achievements/JS_B2_L6_ToDoList/array.html","_self")
+}
